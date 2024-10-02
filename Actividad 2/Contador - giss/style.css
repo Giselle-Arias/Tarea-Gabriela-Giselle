@@ -1,0 +1,30 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+    flex-direction: column;
+    background-color: rgb(214, 211, 200);
+}
+
+input{
+    padding: 10px; 
+    border: 2px solid #839154; 
+    border-radius: 5px; 
+    width: 200px; 
+    margin-bottom: 15px; 
+}
+
+button {
+    background-color: #6b966e; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+button:hover {
+    background-color: #6b966ea9; 
+}
